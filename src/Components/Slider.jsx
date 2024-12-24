@@ -1,9 +1,11 @@
-// App.jsx
 import React from "react";
+
 const Slider = () => {
   return (
-    <div className="relative flex flex-wrap justify-between items-center px-6 lg:px-20 py-12 bg-gray-100">
-      <div className="lg:w-1/2 text-center lg:text-left">
+    <div className="relative flex flex-wrap justify-between items-center px-6 lg:px-20 py-12 shadow-lg rounded-lg" style={{
+        background: 'radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%)'
+    }}>
+      <div className="lg:w-1/2 text-center lg:text-left animate-fadeIn">
         <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-gray-800">
           <span className="text-clip bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-900">
             USA PRINTER SOLUTIONS
@@ -18,16 +20,16 @@ const Slider = () => {
           maintenance, troubleshooting, and configuration that ensures your
           device runs smoothly.
         </p>
-        <button className="mt-6 flex items-center gap-2 text-red-600 font-medium hover:underline">
+        <button className="mt-6 flex items-center gap-2 text-red-600 font-medium hover:underline transition-transform transform hover:scale-105">
           <span>Explore More</span>
           <span className="text-xl">&#8594;</span>
         </button>
       </div>
-      <div className="lg:w-1/2 flex justify-center">
+      <div className="lg:w-1/2 flex justify-center animate-slideInRight">
         <img
-          src="https://via.placeholder.com/400x400"
+          src="/girl.png"
           alt="Customer Support"
-          className="max-w-sm lg:max-w-md rounded-lg"
+          className="max-w-sm lg:max-w-md rounded-lg shadow-md"
         />
       </div>
     </div>
@@ -55,7 +57,7 @@ const InfoCards = () => {
       {cards.map((card, index) => (
         <div
           key={index}
-          className="w-full md:w-1/3 lg:w-1/4 bg-white rounded-lg shadow-md p-6 text-center"
+          className="w-full md:w-1/3 lg:w-1/4 bg-white rounded-lg shadow-md p-6 text-center transition-transform transform hover:scale-105 animate-fadeInUp"
         >
           <div className="text-4xl text-red-600 mb-4">{card.icon}</div>
           <h3 className="font-bold text-lg text-gray-800">{card.title}</h3>

@@ -41,7 +41,6 @@ import Slider from "./Components/Slider";
 import AboutUsSection from "./Components/AboutSecyion";
 import Banner from "./Components/Banner";
 import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BlogPage from "./blogs/BlogPage";
 import BlogDetailPage from "./blogs/BlogDetailPage";
@@ -70,7 +69,7 @@ export default function App() {
         <div id="why-choose-us">
           <Banner/>
         </div>
-        <Footer />
+      
       </>
   
   );

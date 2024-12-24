@@ -6,19 +6,10 @@
 //   plugins: [react()],
 // })
 
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
+export default {
   build: {
     rollupOptions: {
-      onwarn(warning, warn) {
-        // Ignore certain warnings
-        if (warning.code === 'THIS_IS_UNDEFINED') return;
-        // Use default for everything else
-        warn(warning);
-      }
+      external: ["@fortawesome/free-brands-svg-icons"]
     }
   }
-});
+}

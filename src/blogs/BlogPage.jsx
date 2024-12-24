@@ -7,7 +7,7 @@ const BlogPage = () => {
       {/* Main Content */}
       <main className="py-16">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Blog</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 font-poppins text-[#37B7C3]">Our Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogData.map((blog) => (
               <div

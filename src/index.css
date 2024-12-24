@@ -6,3 +6,7 @@
   @apply bg-clip-text text-transparent bg-radial-gradient;
 }
 
+body {
+  overflow-x: hidden;
+}
+

@@ -44,6 +44,7 @@ import Hero from "./Components/Hero";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BlogPage from "./blogs/BlogPage";
 import BlogDetailPage from "./blogs/BlogDetailPage";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -69,6 +70,7 @@ export default function App() {
         <div id="why-choose-us">
           <Banner/>
         </div>
+        <Footer/>
       
       </>
   

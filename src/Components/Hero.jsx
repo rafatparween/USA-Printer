@@ -39,7 +39,7 @@ function Hero() {
           </section>
           <section className="md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="https://img.freepik.com/premium-photo/happy-business-worker-beautiful-woman-working-taking-paper-from-modern-office-printer-copier_962751-6516.jpg"
+              src="/hero.avif"
               alt="Printer Assistance"
               className="max-w-full rounded-lg shadow-xl object-cover max-h-[400px]"
             />

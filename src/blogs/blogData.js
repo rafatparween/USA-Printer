@@ -5,7 +5,7 @@ export const blogData = [
     description:
       "A detailed guide on diagnosing and resolving the most common printer problems, helping users to troubleshoot and fix issues without needing professional assistance.",
     imageUrl:
-      "https://media.istockphoto.com/id/1153593736/photo/bussinesswoman-using-copier-machine-to-copy-heap-of-paperwork-in-office.jpg?s=612x612&w=0&k=20&c=k0Z579IpZ_f2ursTfbMqpjGK2NKZ-BhLYIwx9Nbabbc=",
+      "/paper.jpg",
     content: [
       {
         step: 1,
@@ -45,7 +45,7 @@ export const blogData = [
     description:
       "Explore common ink cartridge problems, such as installation errors and clogging, and learn effective solutions to keep your printer running smoothly.",
     imageUrl:
-      "https://media.istockphoto.com/id/902845476/photo/young-businesswoman-prints-on-the-printer-in-the-office.jpg?s=612x612&w=0&k=20&c=CpU5D9qgAXbynapUv5R0UksGB-BmY9H_lUaTMMbrrp8=",
+      "/white.jpg",
     content: [
       {
         step: 1,
@@ -85,7 +85,7 @@ export const blogData = [
     description:
       "Follow these step-by-step instructions to troubleshoot and resolve common Wi-Fi connectivity issues, ensuring your printer stays connected to your network.",
     imageUrl:
-      "https://www.absolutetoner.com/cdn/shop/articles/Consider_Your_Requirements_Prior_To_You_Buy.jpg?v=1665257844",
+      "/both.webp",
     content: [
       {
         step: 1,
@@ -125,7 +125,7 @@ export const blogData = [
     description:
       "Learn how to prevent and clear paper jams in your printer, reducing downtime and avoiding damage to your device.",
     imageUrl:
-      "https://img.freepik.com/premium-photo/happy-business-worker-beautiful-woman-working-taking-paper-from-modern-office-printer-copier_962751-6515.jpg",
+      "/black.avif",
     content: [
       {
         step: 1,
@@ -164,7 +164,7 @@ export const blogData = [
     description:
       "Discover tips and techniques to fix print quality issues, such as streaks and smudges, ensuring your documents look professional.",
     imageUrl:
-      "https://thumbs.dreamstime.com/b/male-smiling-assistant-eyeglasses-holding-documents-operating-modern-computer-printer-office-male-smiling-assistant-331141402.jpg",
+      "/yellow.webp",
     content: [
       {
         step: 1,
@@ -203,7 +203,7 @@ export const blogData = [
     description:
       "This beginner-friendly guide walks you through the entire process of setting up a new printer, from unboxing to printing your first page.",
     imageUrl:
-      "https://media.istockphoto.com/id/1189066898/photo/business-people-near-the-copier-in-the-hallway.jpg?s=612x612&w=0&k=20&c=DMXjgUYrgA6quko5b_Oke4okT7V-aJ4UGggAZwOQhHI=",
+      "/printerboth.jpg",
     content: [
       {
         step: 1,

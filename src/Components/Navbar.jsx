@@ -41,7 +41,7 @@ function Navbar() {
                     />
                     <div>
                         <h1 className="text-2xl font-poppins text-black leading-none">
-                        Printlive
+                        Printlive Rafat
                         </h1>
                         <h2 className="gradient-text text-base font-medium">Solutions</h2>
                     </div>
